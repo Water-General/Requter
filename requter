@@ -1,2 +1,2 @@
 #!/bin/sh
-python3 /Users/bounty/Documents/Program/src/Reqter.py "$@"
+python3 /src/Reqter.py "$@"
