@@ -14,12 +14,12 @@ git clone https://github.com/punkmemorie/Requter
 How to PATH, Set up
 -----------
 ```
+chmod +x requter
+
 vi ~/.zprofile
 
 PATH="/Users/[USER]/Requter/requter:${PATH}"
 export PATH
-
-chmod +x requter
 ```
 
 How to Use Requter
