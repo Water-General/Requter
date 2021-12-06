@@ -1,5 +1,10 @@
 # Requter
-
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 punkmemorie % requter -h                                                                         
                                   _                        
              _ __ ___  __ _ _   _| |_ ___ _ __             
