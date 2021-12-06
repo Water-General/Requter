@@ -58,7 +58,7 @@ ___________________________________________________________
 <!doctype html><html itemscope="" itemtype=...........
 
 
-Requter % requter -f google.com/FUZZ -w ~/Documents/Wordlists/SecLists_Github/Discovery/Web-Content/raft-large-directories-lowercase.txt -b 404
+Requter % requter -f google.com/FUZZ -w raft-large-directories-lowercase.txt -b 404
                                   _                        
              _ __ ___  __ _ _   _| |_ ___ _ __             
             | '__/ _ \/ _` | | | | __/ _ \ '__|            
