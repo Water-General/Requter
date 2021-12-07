@@ -40,7 +40,7 @@ def requter_url(url):
             print("\033[1;31;1mPLEASE CHECK YOUR URL\nStatus: %s" % response.status_code)
     except:
         print("\033[1;31;1mPLEASE CHECK YOUR URL : %s" % Surl)
-
+    sys.exit()
 
 def requter_fuzz(url, wordfile):
     print('%s----Attack from FUZZING----' % G)
@@ -82,7 +82,7 @@ def requter_fuzz(url, wordfile):
             pass
 
     print('%s----FUZZING is Completed----' % G)
-
+    sys.exit()
 
 def requter_blind(url, wordfile, status_blind):
     print('%s----Attack from FUZZING----' % G)
@@ -128,7 +128,7 @@ def requter_blind(url, wordfile, status_blind):
             pass
 
     print('%s----FUZZING is Completed----' % G)
-
+    sys.exit()
 
 def parse_args():
     import argparse
