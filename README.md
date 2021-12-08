@@ -4,7 +4,7 @@ Requter
 
 The Simple Web Fuzzer and Request
 -----------
-Requter is macOS monterey simple Fuzzing and Request 
+Requter is (macOS Monterey M1, 2020) simple Fuzzing and Request 
 
 Installation
 -----------
