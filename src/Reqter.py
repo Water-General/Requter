@@ -15,7 +15,7 @@ print("""                                  _
             | '__/ _ \/ _` | | | | __/ _ \ '__|            
             | | |  __/ (_| | |_| | ||  __/ |               
             |_|  \___|\__, |\__,_|\__\___|_|               
-                         |_|                v0.0.1@punkmemorie        
+                         |_|                v0.0.1         
             Use "requter -h, --help" for more information about a command.                                               
 ______________________________________________________________________""")
 
@@ -31,7 +31,7 @@ def requter_url(url):
 
         if not response.text == '':
             print(" >> Method           : %s" % response)
-            print(" >> URL              : %s" % response.status_code)
+            print(" >> URL              : %s" % Surl)
             print(" >> Content-Type     : %s" % response.headers['Content-Type'])
             print(" >> Timeout          : 1")
             print("___________________________________________________________")
@@ -73,9 +73,10 @@ def requter_fuzz(url, wordfile):
             # print(type(status_blind))
             # if after putting subdomain one by one url
             # is valid then printing the url
-
-            print(f'%s[+] {Surl} STATUS : {status}' % B)
-
+            if status <= 200:
+                print(f'%s[+] {Surl} STATUS : {status}' % B)
+            else:
+                print(f'%s[+] {Surl} STATUS : {status}' % R)
         # if url is invalid then pass it
         except:
             print(f'%s[-] %s STATUS : ERROR' % (R, f))
